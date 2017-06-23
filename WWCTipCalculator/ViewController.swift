@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func calculatorButtonWasPressed(_ sender: UIButton) {
+        print("button pressed", sender.tag)
+
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +28,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func mysecondbuttonaction(_ sender: UIButton) {
+    }
+    
+    
 }
 
